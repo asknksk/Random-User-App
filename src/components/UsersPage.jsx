@@ -14,22 +14,22 @@ const UsersPage = ({ user }) => {
   } = user;
   return (
     <main className="user-container">
-      <div>
+      <div className="main-header">
         <img src={medium} alt="user-photo" />
         <h1>
           {title} {first} {last}
         </h1>
       </div>
       <div className="description">
-        <div>
+        <div className="description-row">
           <GoMailRead />
           <p>{email}</p>
         </div>
-        <div>
+        <div className="description-row">
           <TbPhoneCall />
           <p>{phone}</p>
         </div>
-        <div>
+        <div className="description-row">
           <GrMapLocation />
           <p>
             {state} -{country}

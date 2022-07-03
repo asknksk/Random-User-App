@@ -14,7 +14,7 @@ const UsersPage = ({ user }) => {
   } = user;
   return (
     <main className="user-container">
-      <div className="main-header">
+      <div className="main-header description-row">
         <img src={medium} alt="user-photo" />
         <h1>
           {title} {first} {last}
@@ -36,7 +36,7 @@ const UsersPage = ({ user }) => {
           </p>
         </div>
       </div>
-      <div>
+      <div className="age-date">
         <p>Age: {age}</p>
         <p>Register Date: {date}</p>
       </div>

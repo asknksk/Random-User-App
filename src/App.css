@@ -1,3 +1,8 @@
+.app-container {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+}
 .user-container {
   display: flex;
   flex-direction: column;
@@ -7,4 +12,9 @@
 .description-row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.age-date {
+  text-align: center;
 }

@@ -15,7 +15,7 @@ const UsersPage = ({ user }) => {
   return (
     <main className="user-container">
       <div className="main-header description-row">
-        <img src={medium} alt="user-photo" />
+        <img src={medium} alt="user" />
         <h1>
           {title} {first} {last}
         </h1>

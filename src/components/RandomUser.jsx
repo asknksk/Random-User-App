@@ -37,7 +37,7 @@ const RandomUser = () => {
   return (
     <>
       <UsersPage user={user} />
-      <button onClick={() => handleRandomUser()}>Random User</button>
+      <button onClick={() => handleRandomUser()} >Random User</button>
     </>
   );
 };

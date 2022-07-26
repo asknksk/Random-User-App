@@ -12,10 +12,10 @@ In this project, I performed the fetch operation using the Axios library and tri
 <hr>
 
 ## Project Preview 
-![Alt Text]()
+![Alt Text](https://github.com/asknksk/Random-User-App/blob/master/src/img/Animation.gif)
 ## Project Link
 
-<a href="" target="_blank">Netlify Link</a> to access my project.
-<a href="" target="_blank">GitHub Link</a> to access my project.
+<a href="https://random-user-axios.netlify.app/" target="_blank">Netlify Link</a> to access my project.
+
 
 <hr>
